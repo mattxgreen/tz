@@ -111,10 +111,10 @@ func main() {
 	half := (full - (full % 2)) / 2
 
 	// colors
-	inactive := color.New(color.BgWhite).Add(color.FgBlack)
-	active := color.New(color.BgGreen).Add(color.FgWhite, color.Bold)
-	now := color.New(color.BgBlue).Add(color.FgWhite, color.Bold)
-	nope := color.New(color.BgRed).Add(color.FgWhite)
+	inactive := color.New(color.BgWhite, color.FgBlack)
+	active := color.New(color.BgGreen, color.FgWhite, color.Bold)
+	now := color.New(color.BgBlue, color.FgWhite, color.Bold)
+	nope := color.New(color.BgRed)
 	info := color.New(color.FgRed)
 
 	// set time
