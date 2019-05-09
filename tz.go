@@ -112,9 +112,9 @@ func main() {
 
 	// colors
 	inactive := color.New(color.BgWhite).Add(color.FgBlack)
-	active := color.New(color.BgGreen)
-	now := color.New(color.BgBlue)
-	nope := color.New(color.BgRed)
+	active := color.New(color.BgGreen).Add(color.FgWhite)
+	now := color.New(color.BgBlue).Add(color.FgWhite)
+	nope := color.New(color.BgRed).Add(color.FgWhite)
 	info := color.New(color.FgRed)
 
 	// set time
